@@ -31,7 +31,7 @@ type application struct {
 
 func main() {
 	addr := flag.String("addr", ":4000", "HTTP network address")
-	dsn := flag.String("dsn", "root:password@/snippetbox?parseTime=true", "MySQL data source name")
+	dsn := flag.String("dsn", "sgap77fz4en72a1ar1t4:pscale_pw_66r6ogzWOXAZqh8BfY3BigCHAzamqtLt2EiGZmU1Nq7@tcp(ap-south.connect.psdb.cloud)/snippetbox?tls=true&parseTime=true", "MySQL data source name")
 	debug := flag.Bool("debug", false, "Enable debug mode")
 	flag.Parse()
 
